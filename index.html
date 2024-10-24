@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="scrollbar.css" rel="stylesheet">
 </head>
 <body class="text-white font-[onest] bg-zinc-800">
     <div class="absolute z-[-2] w-full h-full bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)]">
@@ -323,7 +324,6 @@
                 </a>
             </div>
             <div class="flex items-center flex-col gap-4 mt-4">
-                
                 <label for="subject" class="sr-only">Subject</label>
                 <input type="text" id="subject" name="subject" placeholder="Subject" class="border rounded-lg py-1 px-2 w-11/12 md:w-1/3 bg-zinc-700" required>
 
@@ -331,7 +331,6 @@
                 <textarea id="message" name="message" placeholder="Message..." class="border rounded-lg py-1 px-2 w-11/12 md:w-1/3 h-40 bg-zinc-700" required></textarea>
 
                 <button onclick="mail()" class="hover:scale-110 transform transition-transform duration-300 ease-in-out border-2 px-4 py-2 rounded-xl font-semibold hover:font-bold border-[#ffc86b] text-[#ffc86b]">Send Mail</button>
-
             </div>
         </div>
     </main>
